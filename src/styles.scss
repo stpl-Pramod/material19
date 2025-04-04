@@ -20,10 +20,10 @@ html {
     background-color: var(--md-sys-on-surface);
     color: var(--mat-sys-primary);
   }
-  .tokenstyle{
-    padding: 5px 25px;
-    background: var(--mat-sys-primary);
-    color: var(--mat-sys-on-primary);
+  @include mat.button-density(-2);
+
+  .mat-sidenav{
+    background: var(--mat-sys-primary-container);
   }
 }
 
@@ -40,12 +40,8 @@ body.dark-theme{
   ));
   background: var(--md-sys-on-surface);
   color: var(--mat-sys-primary);
+
   
-  .tokenstyle{
-    padding: 5px 25px;
-    background: var(--mat-sys-on-primary);
-    color: var(--mat-sys-primary);
-  }
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

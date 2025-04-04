@@ -1,0 +1,22 @@
+.table-content{
+  padding: 15px;
+}
+.dashboard-table {
+  width: 100%;
+  border: 1px solid #cccccc;
+  .mat-mdc-header-row{
+    height: 36px;
+    .mat-mdc-header-cell{
+      border-bottom-color: #cccccc;
+      padding: 5px 10px;
+      background: #d5e3ff;
+    }
+  }
+  .mat-mdc-row{
+    height: 36px;
+    .mat-mdc-cell{
+      border-bottom-color: #cccccc;
+      padding: 5px 10px;
+    }
+  }
+}
